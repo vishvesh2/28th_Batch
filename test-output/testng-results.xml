@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-13T13:47:26 IST" name="Default suite" finished-at="2023-12-13T13:47:32 IST" duration-ms="5621">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPage_Test.LoginToApplicationTest()[pri:3, instance:TestCases.LoginPage_Test@6b6776cb]" name="LoginToApplicationTest" class="TestCases.LoginPage_Test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-12-13T13:47:26 IST" name="Default test" finished-at="2023-12-13T13:47:32 IST" duration-ms="5621">
+      <class name="TestCases.LoginPage_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPage_Test@6b6776cb]" started-at="2023-12-13T13:47:26 IST" name="setup" finished-at="2023-12-13T13:47:30 IST" duration-ms="4342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginToApplicationTest()[pri:3, instance:TestCases.LoginPage_Test@6b6776cb]" started-at="2023-12-13T13:47:30 IST" name="LoginToApplicationTest" finished-at="2023-12-13T13:47:31 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPage_Test@6b6776cb]" started-at="2023-12-13T13:47:31 IST" name="closeBrowser" finished-at="2023-12-13T13:47:32 IST" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplicationTest status=SUCCESS method=LoginPage_Test.LoginToApplicationTest()[pri:3, instance:TestCases.LoginPage_Test@6b6776cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.LoginPage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
